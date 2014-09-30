@@ -4,7 +4,7 @@ version: 0.0.1
 author: Max Quattromani
 email: max@maxquattromani.com
 description: ""
-baseurl: "/qoppa/"
+baseurl: ""
 url: "http://qoppa.co"
 author: "Max Quattromani"
 twitter_username: maxquattromani

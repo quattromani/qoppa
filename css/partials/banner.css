@@ -4,7 +4,7 @@
 header {
   width: 100%;
   height: 500px;
-  background: #d12328 url(/qoppa/media/images/header.jpg) no-repeat center center;
+  background: #d12328 url(/media/images/header.jpg) no-repeat center center;
   background-size: cover;
 }
 header .logo {
