@@ -17,28 +17,6 @@
 			]
 		]
 	},
-	"buffers":
-	[
-		{
-			"file": "_config.yml",
-			"settings":
-			{
-				"buffer_size": 469,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"contents": "{\n	\"folders\":\n	[\n		{\n			\"follow_symlinks\": true,\n			\"path\": \".\"\n		}\n	]\n}\n",
-			"file": "scaffold.sublime-project",
-			"file_size": -1,
-			"file_write_time": -1,
-			"settings":
-			{
-				"buffer_size": 73,
-				"line_ending": "Unix"
-			}
-		}
-	],
 	"build_system": "",
 	"command_palette":
 	{
@@ -121,12 +99,15 @@
 		"side_bar_visible": false,
 		"status_bar_visible": false
 	},
-	"expanded_folders":
-	[
-		"/Users/Q/Sites/qoppa"
-	],
 	"file_history":
 	[
+		"/Users/Q/Sites/qoppa/_includes/head.html",
+		"/Users/Q/Sites/qoppa/css/partials/colors.css",
+		"/Users/Q/Sites/qoppa/index.html",
+		"/Users/Q/Sites/qoppa/bower.json",
+		"/Users/Q/Sites/qoppa/CNAME",
+		"/Users/Q/Sites/qoppa/scaffold.sublime-project",
+		"/Users/Q/Sites/qoppa/emails/index.html",
 		"/Users/Q/Sites/terracare/css/scss/theme/_nav-theme.scss",
 		"/Users/Q/Sites/terracare/_layouts/post.html",
 		"/Users/Q/Sites/terracare/_config.yml",
@@ -247,18 +228,11 @@
 		"/Users/Q/Sites/terracare/_includes/sticky-footer.html",
 		"/Users/Q/Sites/terracare/_site/index.html",
 		"/Users/Q/Sites/terracare/_site/README.md",
-		"/Users/Q/Sites/terracare/css/main.css",
-		"/Users/Q/Sites/terracare/_layouts/basic.html",
-		"/Users/Q/Sites/terracare/about-us/company-profile/index.html",
-		"/Users/Q/Sites/terracare/public-services/parks-streetscape/index.html",
-		"/Users/Q/Sites/terracare/js/callout.js",
-		"/Users/Q/Sites/terracare/css/scss/partials/typography.scss",
-		"/Users/Q/Sites/terracare/about-us/teams/index.html",
-		"/Users/Q/Sites/terracare/css/scss/partials/colors.scss"
+		"/Users/Q/Sites/terracare/css/main.css"
 	],
 	"find":
 	{
-		"height": 27.0
+		"height": 35.0
 	},
 	"find_in_files":
 	{
@@ -278,6 +252,8 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"\"></",
+			"vertic",
 			"'",
 			"{.",
 			"{",
@@ -403,9 +379,7 @@
 			"overlay",
 			"></",
 			"strong",
-			"  ",
-			"box",
-			"figure"
+			"  "
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -443,77 +417,6 @@
 		"whole_word": false,
 		"wrap": true
 	},
-	"groups":
-	[
-		{
-			"selected": 1,
-			"sheets":
-			[
-				{
-					"buffer": 0,
-					"file": "_config.yml",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 469,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								469,
-								469
-							]
-						],
-						"settings":
-						{
-							"incomplete_sync": null,
-							"remote_loading": false,
-							"synced": false,
-							"syntax": "Packages/YAML/YAML.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "scaffold.sublime-project",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 73,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"incomplete_sync": null,
-							"remote_loading": false,
-							"synced": false,
-							"syntax": "Packages/JavaScript/JSON.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				}
-			]
-		}
-	],
 	"incremental_find":
 	{
 		"height": 27.0
@@ -557,7 +460,6 @@
 	{
 		"height": 122.0
 	},
-	"project": "qoppa.sublime-project",
 	"replace":
 	{
 		"height": 50.0
@@ -595,7 +497,6 @@
 		],
 		"width": 0.0
 	},
-	"selected_group": 0,
 	"settings":
 	{
 	},
