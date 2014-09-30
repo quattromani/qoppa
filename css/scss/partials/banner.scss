@@ -1,0 +1,25 @@
+// Pull globals for individually compiled css files
+@import '../globals/allGlobals';
+
+/* ==========================================================================
+    Banner -- Version: 0.2.1- Compiled: #{timestamp()}
+   ========================================================================== */
+
+header {
+  width: 100%;
+  height: 500px;
+  background: #d12328 url(/qoppa/media/images/header.jpg) no-repeat center center;
+  background-size: cover;
+
+  .logo {
+    @include vertical-align;
+    text-align: center;
+
+    h2 {
+      @include inline-block;
+      @include padding(1em, 2em);
+      border: 4px solid currentColor;
+      color: $color-white;
+    }
+  }
+}

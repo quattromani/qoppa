@@ -1,0 +1,24 @@
+/* ==========================================================================
+    Qoppa -- Version: 0.0.1 - Compiled: timestamp()
+   ========================================================================== */
+section {
+  zoom: 1;
+  display: inline-block;
+  *zoom: 1;
+  *display: inline;
+  *vertical-align: auto;
+  width: 100%;
+  margin-bottom: 1em;
+}
+section:before, section:after {
+  content: ' ';
+  display: table;
+}
+section:after {
+  clear: both;
+}
+section:only-child {
+  margin-bottom: 0;
+}
+
+/*# sourceMappingURL=qoppa.css.map */

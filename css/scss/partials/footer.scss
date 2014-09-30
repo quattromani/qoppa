@@ -1,0 +1,11 @@
+// Pull globals for individually compiled css files
+@import '../globals/allGlobals';
+
+/* ==========================================================================
+    Footer -- Version: 0.0.1 - Compiled: #{timestamp()}
+    ========================================================================== */
+
+    footer {
+      @include padding(2em, 0);
+      background-color: $color-primary-red;
+    }

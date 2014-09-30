@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": ";;;AAOA,OAAQ;EC6FN,IAAI,EAAE,CAAC;EAtFP,OAAO,EAAE,YAAY;EACrB,KAAK,EAAE,CAAC;EACR,QAAQ,EAAE,MAAM;EAChB,eAAe,EAAC,IAAI;EAgHpB,KAAK,EAfC,IAAI;EAgBV,aAAa,EC/GN,GAAG;;ADmFV,6BACQ;EACN,OAAO,EAAE,GAAG;EACZ,OAAO,EAAE,KAAK;;AAGhB,aAAQ;EACN,KAAK,EAAE,IAAI;;AAuBb,kBAAa;EACX,aAAa,EAAE,CAAC",
+"sources": ["../scss/partials/qoppa.scss","../scss/globals/_mixins.scss","../scss/globals/_vars.scss"],
+"names": [],
+"file": "qoppa.css"
+}

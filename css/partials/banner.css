@@ -1,0 +1,29 @@
+/* ==========================================================================
+    Banner -- Version: 0.2.1- Compiled: timestamp()
+   ========================================================================== */
+header {
+  width: 100%;
+  height: 500px;
+  background: #d12328 url(/qoppa/media/images/header.jpg) no-repeat center center;
+  background-size: cover;
+}
+header .logo {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+  text-align: center;
+}
+header .logo h2 {
+  display: inline-block;
+  *zoom: 1;
+  *display: inline;
+  *vertical-align: auto;
+  padding-top: 1em;
+  padding-right: 2em;
+  padding-bottom: 1em;
+  padding-left: 2em;
+  border: 4px solid currentColor;
+  color: #fff;
+}
+
+/*# sourceMappingURL=banner.css.map */

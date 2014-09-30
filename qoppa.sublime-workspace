@@ -1,0 +1,611 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"C",
+				"California"
+			],
+			[
+				"tex",
+				"text-align"
+			],
+			[
+				"text",
+				"text-transform"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "_config.yml",
+			"settings":
+			{
+				"buffer_size": 469,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "{\n	\"folders\":\n	[\n		{\n			\"follow_symlinks\": true,\n			\"path\": \".\"\n		}\n	]\n}\n",
+			"file": "scaffold.sublime-project",
+			"file_size": -1,
+			"file_write_time": -1,
+			"settings":
+			{
+				"buffer_size": 73,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"selected_items":
+		[
+			[
+				"grun",
+				"Grunt"
+			],
+			[
+				"lint",
+				"SublimeLinter: Toggle Linter"
+			],
+			[
+				"rein",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"grunt",
+				"Grunt"
+			],
+			[
+				"can",
+				"SFTP: Cancel Upload"
+			],
+			[
+				"Package Control: remo",
+				"Package Control: Remove Package"
+			],
+			[
+				"gr",
+				"Grunt"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"re",
+				"Package Control: Remove Package"
+			],
+			[
+				"remo",
+				"Package Control: Remove Package"
+			],
+			[
+				"remov",
+				"Package Control: Remove Package"
+			],
+			[
+				"packa",
+				"Package Control: Remove Package"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 593.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404' + 'e330c659d4bb41d3bdf022e94cab3cd0'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by) "
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/Q/Sites/qoppa"
+	],
+	"file_history":
+	[
+		"/Users/Q/Sites/terracare/css/scss/theme/_nav-theme.scss",
+		"/Users/Q/Sites/terracare/_layouts/post.html",
+		"/Users/Q/Sites/terracare/_config.yml",
+		"/Users/Q/Sites/terracare/_posts/2014-03-20-outdoor-pests-2.markdown",
+		"/Users/Q/Sites/terracare/_posts/2014-03-20-outdoor-pests.markdown",
+		"/Users/Q/Sites/terracare/_posts/2014-05-01-service-projects.markdown",
+		"/Users/Q/Sites/terracare/_posts/2014-07-23-traffic-control.markdown",
+		"/Users/Q/Sites/terracare/_posts/2014-07-22-public-private-partnerships.markdown",
+		"/Users/Q/Sites/terracare/_posts/2014-07-22-effective-teams.markdown",
+		"/Users/Q/Sites/terracare/_posts/2014-06-10-water-management-2.markdown",
+		"/Users/Q/Sites/terracare/_posts/2014-06-10-water-management-1.markdown",
+		"/Users/Q/Sites/terracare/_posts/2014-06-10-stormwater-management.markdown",
+		"/Users/Q/Sites/terracare/_posts/2014-05-02-ty-wilson.markdown",
+		"/Users/Q/Sites/terracare/_posts/2014-06-10-lets-talk-about.markdown",
+		"/Users/Q/Sites/terracare/_layouts/category_index.html",
+		"/Users/Q/Sites/terracare/_posts/2014-08-20-communication-2.markdown",
+		"/Users/Q/Sites/terracare/_includes/foot.html",
+		"/Users/Q/Sites/terracare/_plugins/_tag_gen.rb",
+		"/Users/Q/Sites/terracare/_layouts/tag_index.html",
+		"/Users/Q/Sites/terracare/_site/categories/industry-information/index.html",
+		"/Users/Q/Sites/terracare/_posts/template.markdown",
+		"/Users/Q/Sites/terracare/_plugins/_tag_gen.rg",
+		"/Users/Q/Sites/terracare/responsibility/sustainability-policy/index.html",
+		"/Users/Q/Sites/terracare/responsibility/index.html",
+		"/Users/Q/Sites/terracare/public-services/index.html",
+		"/Users/Q/Sites/terracare/commercial-services/index.html",
+		"/Users/Q/Sites/terracare/about-us/company-approach/index.html",
+		"/Users/Q/Sites/terracare/_site/responsibility/sustainability-policy/index.html",
+		"/Users/Q/Sites/terracare/_site/responsibility/index.html",
+		"/Users/Q/Sites/terracare/_site/public-services/index.html",
+		"/Users/Q/Sites/terracare/_site/commercial-services/index.html",
+		"/Users/Q/Sites/terracare/_site/about-us/company-approach/index.html",
+		"/Users/Q/Sites/terracare/careers/index.html",
+		"/Users/Q/Sites/terracare/about-us/our-culture/index.html",
+		"/Users/Q/Sites/terracare/blog/index.html",
+		"/Users/Q/Sites/terracare/about-us/leadership-team/index.html",
+		"/Users/Q/Sites/terracare/_data/leadership.yml",
+		"/Users/Q/Sites/terracare/_layouts/blog.html",
+		"/Users/Q/Sites/terracare/blog/company-news/index.html",
+		"/Users/Q/Sites/terracare/attend-a-seminar/index.html",
+		"/Users/Q/Sites/terracare/_data/nav.yml",
+		"/Users/Q/Sites/terracare/js/main.js",
+		"/Users/Q/Sites/terracare/_layouts/default.html",
+		"/Users/Q/Sites/terracare/_includes/head.html",
+		"/Users/Q/Sites/terracare/about-us/credentials/index.html",
+		"/Users/Q/Sites/terracare/about-us/customer-service/index.html",
+		"/Users/Q/Sites/terracare/_data/blog.yml",
+		"/Users/Q/Sites/terracare/about-us/locations/index.html",
+		"/Users/Q/Sites/terracare/about-us/request-a-bid/index.html",
+		"/Users/Q/Sites/terracare/brand/index.html",
+		"/Users/Q/Sites/terracare/careers/espanol/index.html",
+		"/Users/Q/Sites/terracare/commercial-services/lake-management/index.html",
+		"/Users/Q/Sites/terracare/commercial-services/landscape-maintenance/index.html",
+		"/Users/Q/Sites/terracare/commercial-services/parking-streets/index.html",
+		"/Users/Q/Sites/terracare/commercial-services/snow-removal/index.html",
+		"/Users/Q/Sites/terracare/commercial-services/water-management/index.html",
+		"/Users/Q/Sites/terracare/projects/index.html",
+		"/Users/Q/Sites/terracare/public-services/highway-maintenance/index.html",
+		"/Users/Q/Sites/terracare/public-services/public-landscape/index.html",
+		"/Users/Q/Sites/terracare/public-services/public-works/index.html",
+		"/Users/Q/Sites/terracare/public-services/snow-removal/index.html",
+		"/Users/Q/Sites/terracare/css/scss/partials/blog.scss",
+		"/Users/Q/Sites/terracare/public-services/traffic-control/index.html",
+		"/Users/Q/Sites/terracare/responsibility/community-investment/index.html",
+		"/Users/Q/Sites/terracare/responsibility/safety/index.html",
+		"/Users/Q/Sites/terracare/responsibility/water-management/index.html",
+		"/Users/Q/Sites/terracare/about-us/index.html",
+		"/Users/Q/Sites/terracare/_layouts/patterns.html",
+		"/Users/Q/Sites/terracare/slick/slick.css",
+		"/Users/Q/Sites/terracare/index.html",
+		"/Users/Q/Sites/terracare/css/scss/partials/videos.scss",
+		"/Users/Q/Sites/terracare/_data/associations.yml",
+		"/Users/Q/Sites/terracare/_includes/footer.html",
+		"/Users/Q/Sites/terracare/css/scss/theme/_base-theme.scss",
+		"/Users/Q/Sites/terracare/css/scss/partials/lists.scss",
+		"/Users/Q/Sites/terracare/_includes/sidebar.html",
+		"/Users/Q/Sites/terracare/css/scss/partials/image-content-panel.scss",
+		"/Users/Q/Sites/terracare/_layouts/home.html",
+		"/Users/Q/Sites/terracare/_includes/banner.html",
+		"/Users/Q/Sites/terracare/css/scss/partials/buttons.scss",
+		"/Users/Q/Sites/terracare/css/scss/partials/layout.scss",
+		"/Users/Q/Sites/terracare/css/scss/globals/_vars.scss",
+		"/Users/Q/Sites/terracare/css/scss/partials/modals.scss",
+		"/Users/Q/Sites/terracare/_data/authors.yml",
+		"/Users/Q/Sites/terracare/_data/projects.yml",
+		"/Users/Q/Sites/terracare/_data/banners.yml",
+		"/Users/Q/Sites/terracare/css/scss/partials/_jumpTo.scss",
+		"/Users/Q/Library/Application Support/Sublime Text 3/Packages/Emmet/Emmet.sublime-settings",
+		"/Users/Q/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/Users/Q/Library/Application Support/Sublime Text 3/Packages/User/Emmet.sublime-settings",
+		"/Users/Q/Library/Application Support/Sublime Text 3/Packages/User/SCSS.sublime-settings",
+		"/Users/Q/Sites/terracare/css/scss/partials/callout.scss",
+		"/Users/Q/Sites/terracare/css/scss/partials/projects.scss",
+		"/Users/Q/Sites/terracare/_data/certifications.yml",
+		"/Users/Q/Sites/terracare/thank-you/index.html",
+		"/Users/Q/Sites/terracare/_data/careers.yml",
+		"/Users/Q/Sites/terracare/_data/carreras.yml",
+		"/Users/Q/Sites/terracare/css/scss/partials/images.scss",
+		"/Users/Q/Sites/terracare/request-a-bid/index.html",
+		"/Users/Q/Sites/terracare/public-services/roadway-maintenance/index.html",
+		"/Users/Q/Sites/terracare/careers/email.php",
+		"/Users/Q/Sites/terracare/contact-us/index.html",
+		"/Users/Q/Sites/terracare/contact-us/email.php",
+		"/Users/Q/Sites/terracare/request-a-bid/email.php",
+		"/Users/Q/Sites/terracare/commercial-services/irrigation-services/index.html",
+		"/Users/Q/Sites/terracare/js/cookie.js",
+		"/Users/Q/Sites/terracare/js/modals.js",
+		"/Users/Q/Sites/terracare/css/scss/main.scss",
+		"/Users/Q/Sites/terracare/css/scss/partials/tables.scss",
+		"/Users/Q/Sites/terracare/_includes/twitter.html",
+		"/Users/Q/Sites/terracare/_site/blog/page2/index.html",
+		"/Users/Q/Sites/terracare/css/scss/globals/_mixins.scss",
+		"/Users/Q/Sites/terracare/css/scss/partials/modules.scss",
+		"/Users/Q/Sites/terracare/_site/request-a-bid/email.php",
+		"/Users/Q/Sites/terracare/_includes/nav.html",
+		"/Users/Q/Sites/terracare/404.html",
+		"/Users/Q/Sites/terracare/_layouts/styleguide.html",
+		"/Users/Q/Sites/terracare/_includes/sticky-footer.html",
+		"/Users/Q/Sites/terracare/_site/index.html",
+		"/Users/Q/Sites/terracare/_site/README.md",
+		"/Users/Q/Sites/terracare/css/main.css",
+		"/Users/Q/Sites/terracare/_layouts/basic.html",
+		"/Users/Q/Sites/terracare/about-us/company-profile/index.html",
+		"/Users/Q/Sites/terracare/public-services/parks-streetscape/index.html",
+		"/Users/Q/Sites/terracare/js/callout.js",
+		"/Users/Q/Sites/terracare/css/scss/partials/typography.scss",
+		"/Users/Q/Sites/terracare/about-us/teams/index.html",
+		"/Users/Q/Sites/terracare/css/scss/partials/colors.scss"
+	],
+	"find":
+	{
+		"height": 27.0
+	},
+	"find_in_files":
+	{
+		"height": 93.0,
+		"where_history":
+		[
+			"/Users/Q/Sites/terracare/_posts",
+			"<project>",
+			"/Users/Q/Sites/terracare",
+			"<project>",
+			"/Users/Q/Sites/GLG/repos/EventLocator",
+			"<project>"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"'",
+			"{.",
+			"{",
+			"categories:",
+			"tags",
+			"tag",
+			"TCA-Responsiblity-and-Sustainablity-Policy.pdf",
+			"sustainablity",
+			"bp",
+			"focus",
+			"TCA-Sustainablity-and-Responsiblity-Policy.pdf",
+			"<a href=\"/assets/pdf/TCA-Sustainablity-and-Responsiblity-Policy.pdf\">Please review our Responsibility &amp; Sustainability Policy</a>\nlayout: default\ntitle:",
+			"<a href=\"/pdfs/sustainability_responsibility.pdf\">Please review our Sustainability &amp; Responsibility Policy</a>",
+			"sustainability and responsibility policy",
+			"category",
+			"-",
+			"---\nlayout: default\nmeta-title:",
+			"default",
+			"---\nlayout: default\ntitle:",
+			"e5e5e5",
+			"each",
+			"      \n",
+			"Public Works\nLandscape\nIndustry Information\nTeam members\nWater Management\nResponsibility",
+			"footer",
+			"fontawe",
+			"buscand",
+			"donde esta",
+			"commercial",
+			"hoa",
+			"br>",
+			"sacr",
+			"commer",
+			"550",
+			"></",
+			"<li>",
+			"></",
+			"alt: 'Windcrest'",
+			"windcrest",
+			"3px",
+			"full",
+			"title: ",
+			")",
+			"/",
+			")\"",
+			"/\"",
+			"\"http:",
+			"http:",
+			"Aquatic",
+			"–  ",
+			"Division Office",
+			"50%",
+			"parkway",
+			"Request For Bid",
+			".sub",
+			"sub:",
+			"cache",
+			"yellow",
+			"centennial",
+			"Centennial",
+			"centennial",
+			"oakley",
+			"tma",
+			"TMA",
+			"tma",
+			"TMA",
+			"tma",
+			"TMA",
+			"tma",
+			"TMA",
+			"tma",
+			"TMA",
+			"tma",
+			"TMA",
+			"tma",
+			"TMA",
+			"tma",
+			"TMA",
+			"tma",
+			"TMA",
+			"tma",
+			"TMA",
+			"tma",
+			"parkway",
+			"silverado",
+			"Windcrest",
+			"windcrest",
+			"Windcrest",
+			"windcrest",
+			"Windcrest",
+			"windcrest",
+			"Windcrest",
+			"windcrest",
+			"tma",
+			"TMA",
+			"tma",
+			"TMA",
+			"tma",
+			"TMA",
+			"tma",
+			"next",
+			"fourht",
+			"border-b",
+			"facet",
+			"NW_",
+			"lone_tree",
+			"centennial",
+			"Centennial",
+			"centennial",
+			"Centennial",
+			"centennial",
+			"Centennial",
+			"centennial",
+			"Centennial",
+			"centennial",
+			"Centennial",
+			"centennial",
+			"Centennial",
+			"centennial",
+			"TWC",
+			"tma",
+			"relative",
+			"></",
+			"overlay",
+			"></",
+			"strong",
+			"  ",
+			"box",
+			"figure"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"tags:",
+			"TCA-Responsiblity-and-Sustainability-Policy.pdf",
+			"TCA-Responsiblity-and-Sustainablity-Policy.pdf",
+			"<a href=\"/assets/pdf/TCA-Sustainablity-and-Responsiblity-Policy.pdf\">Please review our Responsibility &amp; Sustainability Policy</a>\nlayout: default\nmeta-title:",
+			"<a href=\"/assets/pdf/TCA-Sustainablity-and-Responsiblity-Policy.pdf\">Please review our Responsibility &amp; Sustainability Policy</a>\nlayout: default\ntitle:",
+			"---\nlayout: default\ntitle:",
+			"---\nlayout: default\nmeta-title:",
+			"alt: 'Wind Crest'",
+			"Branch Office",
+			"Request For Proposal",
+			".slug",
+			"slug:",
+			"",
+			"h2",
+			"education",
+			"private-",
+			"SourceSansPro",
+			"SourcesansPro",
+			"source-sans-pro",
+			"<a",
+			"docs",
+			"nationality",
+			"/SSM/"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "_config.yml",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 469,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								469,
+								469
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/YAML/YAML.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "scaffold.sublime-project",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 73,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/JavaScript/JSON.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 27.0
+	},
+	"input":
+	{
+		"height": 39.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 124.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.sftp":
+	{
+		"height": 122.0
+	},
+	"project": "qoppa.sublime-project",
+	"replace":
+	{
+		"height": 50.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"loadingw",
+				"plugins/org.apache.cordova.inappbrowser/src/android/InAppBrowserDialog.java"
+			],
+			[
+				"spinning",
+				"platforms/ios/www/img/spinning-loader.svg"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 238.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
