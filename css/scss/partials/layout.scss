@@ -18,10 +18,6 @@
   @include margin(0, auto);
   @include padding(0, $padding);
   overflow: visible;
-
-  @include bp(bp-medium) {
-    @include padding($padding);
-  }
 }
 
 /* ==========================

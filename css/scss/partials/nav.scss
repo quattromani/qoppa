@@ -20,7 +20,7 @@ nav {
     li {
       display: table-cell;
       width: (100% / $nav-items);
-      @include padding(1em, 0);
+      @include padding(($padding / 2), 0);
     }
   }
 
