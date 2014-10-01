@@ -2,7 +2,7 @@
 $site-width: 1080px;
 
 // Navigation
-$nav-items: 5;
+$nav-items: 2;
 
 // ---------------------------------------------------------------------- //
 
@@ -60,6 +60,7 @@ $color-tertiary-violet: lighten($color-primary-violet, 40%);
 
 // Typography
 $text: #454545;
+$bg-text: $text;
 $text-color: $text;
 $link: $color-primary-red;
 $link-hover: $color-secondary-red;

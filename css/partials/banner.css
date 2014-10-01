@@ -25,5 +25,15 @@ header .logo h2 {
   border: 4px solid currentColor;
   color: #fff;
 }
+@media (max-width: 62em) {
+  header {
+    height: 300px;
+  }
+}
+@media (max-width: 40em) {
+  header {
+    height: 200px;
+  }
+}
 
 /*# sourceMappingURL=banner.css.map */

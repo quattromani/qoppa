@@ -101,6 +101,8 @@
 	},
 	"file_history":
 	[
+		"/Users/Q/Sites/qoppa/_data/nav.yml",
+		"/Users/Q/Sites/qoppa/css/scss/globals/_vars.scss",
 		"/Users/Q/Sites/qoppa/_includes/head.html",
 		"/Users/Q/Sites/qoppa/css/partials/colors.css",
 		"/Users/Q/Sites/qoppa/index.html",
@@ -226,9 +228,7 @@
 		"/Users/Q/Sites/terracare/404.html",
 		"/Users/Q/Sites/terracare/_layouts/styleguide.html",
 		"/Users/Q/Sites/terracare/_includes/sticky-footer.html",
-		"/Users/Q/Sites/terracare/_site/index.html",
-		"/Users/Q/Sites/terracare/_site/README.md",
-		"/Users/Q/Sites/terracare/css/main.css"
+		"/Users/Q/Sites/terracare/_site/index.html"
 	],
 	"find":
 	{

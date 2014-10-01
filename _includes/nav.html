@@ -1,11 +1,16 @@
 <nav class="nav-primary" role="navigation" >
-	<div class="container">
-		<ul>
-      {% for p in site.pages %}
-      <li>
-      	<a {% if p.url == page.url %}class="active"{% endif %} href="{{ site.baseurl }}{{ p.url }}">{{ p.title }}</a>
+  <div class="container">
+    <ul>
+      <li class="left text-left">
+      <h4>
+        <a href="/" title="home">WEB DESIGN &amp; DEVELOPMENT</a>
+      </h4>
       </li>
-      {% endfor %}
-  	</ul>
+      <li class="right text-right">
+      <h4>
+        <a href="/about">ABOUT</a>
+      </h4>
+      </li>
+    </ul>
 	</div>
 </nav>

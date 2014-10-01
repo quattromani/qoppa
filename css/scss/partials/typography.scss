@@ -124,6 +124,7 @@ $i: 1;
     font-family: nth($value, 4);
     @include font-size(nth($value, 2));
     font-weight: nth($value, 3);
+    text-transform: uppercase;
 
     @if $i <= 3 {
       @include bp(bp-medium) {

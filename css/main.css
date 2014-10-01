@@ -515,15 +515,28 @@ textarea {
 /* ==========================================================================
     Nav -- Version: 0.4.0 - Compiled: timestamp()
    ========================================================================== */
-nav .container {
-  display: table;
-  width: 100%; }
-nav ul {
-  display: table-row;
-  width: 100%; }
-  nav ul li {
-    display: table-cell;
-    width: 20%; }
+nav {
+  background-color: #ef272d; }
+  nav .container {
+    display: table;
+    width: 100%; }
+  nav ul {
+    display: table-row;
+    width: 100%; }
+    nav ul li {
+      display: table-cell;
+      width: 50%;
+      padding-top: 1em;
+      padding-right: 0;
+      padding-bottom: 1em;
+      padding-left: 0; }
+  nav h4 {
+    margin-top: 0;
+    margin-right: 0;
+    margin-bottom: 0;
+    margin-left: 0; }
+  nav a {
+    color: #fff; }
 
 /* ==========================================================================
     Colors & Gradients -- Version: 0.4.3 - Compiled: timestamp()
@@ -885,7 +898,8 @@ h1,
   font-family: "brandon", Arial, sans-serif;
   font-size: 42px;
   font-size: 4.2rem;
-  font-weight: 200; }
+  font-weight: 200;
+  text-transform: uppercase; }
   @media (max-width: 62em) {
     h1,
     .h1 {
@@ -902,7 +916,8 @@ h2,
   font-family: "brandon", Arial, sans-serif;
   font-size: 36px;
   font-size: 3.6rem;
-  font-weight: 200; }
+  font-weight: 200;
+  text-transform: uppercase; }
   @media (max-width: 62em) {
     h2,
     .h2 {
@@ -919,7 +934,8 @@ h3,
   font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
   font-size: 30px;
   font-size: 3rem;
-  font-weight: 700; }
+  font-weight: 700;
+  text-transform: uppercase; }
   @media (max-width: 62em) {
     h3,
     .h3 {
@@ -936,21 +952,24 @@ h4,
   font-family: "brandon", Arial, sans-serif;
   font-size: 24px;
   font-size: 2.4rem;
-  font-weight: 200; }
+  font-weight: 200;
+  text-transform: uppercase; }
 
 h5,
 .h5 {
   font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
   font-size: 18px;
   font-size: 1.8rem;
-  font-weight: 700; }
+  font-weight: 700;
+  text-transform: uppercase; }
 
 h6,
 .h6 {
   font-family: "brandon", Arial, sans-serif;
   font-size: 18px;
   font-size: 1.8rem;
-  font-weight: 100; }
+  font-weight: 100;
+  text-transform: uppercase; }
 
 .h1,
 .h2,
@@ -2113,6 +2132,12 @@ header {
       padding-left: 2em;
       border: 4px solid currentColor;
       color: #fff; }
+  @media (max-width: 62em) {
+    header {
+      height: 300px; } }
+  @media (max-width: 40em) {
+    header {
+      height: 200px; } }
 
 /* ==========================================================================
     Summary -- Version: 0.2.1 - Compiled: timestamp()
@@ -3101,7 +3126,8 @@ footer {
   padding-right: 0;
   padding-bottom: 2em;
   padding-left: 0;
-  background-color: #ef272d; }
+  background-color: #454545;
+  color: #fff; }
 
 /* ==========================================================================
     Qoppa -- Version: 0.0.1 - Compiled: timestamp()

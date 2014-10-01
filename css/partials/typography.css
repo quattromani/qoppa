@@ -109,6 +109,7 @@ h1,
   font-size: 42px;
   font-size: 4.2rem;
   font-weight: 200;
+  text-transform: uppercase;
 }
 @media (max-width: 62em) {
   h1,
@@ -131,6 +132,7 @@ h2,
   font-size: 36px;
   font-size: 3.6rem;
   font-weight: 200;
+  text-transform: uppercase;
 }
 @media (max-width: 62em) {
   h2,
@@ -153,6 +155,7 @@ h3,
   font-size: 30px;
   font-size: 3rem;
   font-weight: 700;
+  text-transform: uppercase;
 }
 @media (max-width: 62em) {
   h3,
@@ -175,6 +178,7 @@ h4,
   font-size: 24px;
   font-size: 2.4rem;
   font-weight: 200;
+  text-transform: uppercase;
 }
 
 h5,
@@ -183,6 +187,7 @@ h5,
   font-size: 18px;
   font-size: 1.8rem;
   font-weight: 700;
+  text-transform: uppercase;
 }
 
 h6,
@@ -191,6 +196,7 @@ h6,
   font-size: 18px;
   font-size: 1.8rem;
   font-weight: 100;
+  text-transform: uppercase;
 }
 
 .h1,

@@ -22,4 +22,12 @@ header {
       color: $color-white;
     }
   }
+
+  @include bp(bp-medium) {
+    height: 300px;
+  }
+
+  @include bp(bp-small) {
+    height: 200px;
+  }
 }
