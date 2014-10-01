@@ -252,6 +252,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"vertical-al",
 			"rema",
 			"></",
 			"\"></",
@@ -378,8 +379,7 @@
 			"tma",
 			"relative",
 			"></",
-			"overlay",
-			"></"
+			"overlay"
 		],
 		"highlight": true,
 		"in_selection": false,
