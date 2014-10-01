@@ -65,8 +65,9 @@
   @include bp(bp-medium) {
     @include col($site-column-count / 2);
 
-    &:nth-child(even) {
+    &:nth-child(odd) {
       @include first;
+      clear: both;
     }
   }
 

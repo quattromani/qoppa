@@ -98,8 +98,9 @@
     width: 49%;
     margin-left: 2%;
   }
-  .third:nth-child(even) {
+  .third:nth-child(odd) {
     margin-left: 0;
+    clear: both;
   }
 }
 @media (max-width: 40em) {
