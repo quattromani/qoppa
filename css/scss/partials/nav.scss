@@ -32,7 +32,8 @@ nav {
     color: $color-white;
 
     &:hover {
-      color: $color-grey;
+      color: $color-white;
+      box-shadow: 0 2px 0 0 $color-white;
     }
   }
 }

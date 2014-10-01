@@ -538,7 +538,9 @@ nav {
   nav a {
     color: #fff; }
     nav a:hover {
-      color: #ccc; }
+      color: #fff;
+      -webkit-box-shadow: 0 2px 0 0 #fff;
+      box-shadow: 0 2px 0 0 #fff; }
 
 /* ==========================================================================
     Colors & Gradients -- Version: 0.4.3 - Compiled: timestamp()
@@ -2123,15 +2125,15 @@ header {
     -ms-transform: translateY(-50%);
     transform: translateY(-50%);
     text-align: center; }
-    header .logo h2 {
+    header .logo h1 {
       display: inline-block;
       *zoom: 1;
       *display: inline;
       *vertical-align: auto;
       padding-top: 1em;
-      padding-right: 2em;
+      padding-right: 1em;
       padding-bottom: 1em;
-      padding-left: 2em;
+      padding-left: 1em;
       border: 4px solid currentColor;
       color: #fff; }
   @media (max-width: 62em) {

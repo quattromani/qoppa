@@ -15,9 +15,9 @@ header {
     @include vertical-align;
     text-align: center;
 
-    h2 {
+    h1 {
       @include inline-block;
-      @include padding(1em, 2em);
+      @include padding(1em);
       border: 4px solid currentColor;
       color: $color-white;
     }

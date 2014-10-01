@@ -30,7 +30,8 @@ nav a {
   color: #fff;
 }
 nav a:hover {
-  color: #ccc;
+  color: #fff;
+  box-shadow: 0 2px 0 0 #fff;
 }
 
 /*# sourceMappingURL=nav.css.map */
