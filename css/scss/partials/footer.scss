@@ -9,10 +9,11 @@
       @include padding(2em, 0);
       background-color: $bg-text;
       color: $color-white;
+    }
 
-      .sub-footer {
-        margin-top: $margin * 2;
-        padding-top: $padding * 2;
-        border-top: 1px solid lighten($bg-text, 10%);
-      }
+    .sub-footer {
+      @extend footer;
+      border-top: 1px solid lighten($bg-text, 10%);
+      background-color: $bg-text;
+      color: $color-white;
     }

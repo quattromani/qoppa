@@ -1,10 +1,11 @@
     <!-- Footer Component -->
+    {% if page.class != 'thank-you' %}
     <footer role="contentinfo">
       <div class="container">
         <div class="row">
           <div class="third">
-          <h4>REQUEST FOR PROPOSAL</h4>
-          <p>We love to talk about Web Design; So whether you're ready to start building your businesses website, rebrand your old site, or just talk about what's possible and get some ideas - reach out, say hello!</p>
+            <h4>REQUEST FOR PROPOSAL</h4>
+            <p>We love to talk about Web Design; So whether you're ready to start building your businesses website, rebrand your old site, or just talk about what's possible and get some ideas - reach out, say hello!</p>
           </div>
           <div class="two-thirds">
             <h4>CONTACT US</h4>
@@ -12,10 +13,11 @@
           </div>
         </div>
       </div>
-      <div class="sub-footer">
-        <div class="container">
-          <span class="small-body-text">&copy; <span id="year" class="getYear">year</span> {{ site.footer }}</span>
-        </div>
-      </div>
     </footer>
+    {% endif %}
+    <div class="sub-footer">
+      <div class="container">
+        <span class="small-body-text">&copy; <span id="year" class="getYear">year</span> {{ site.footer }}</span>
+      </div>
+    </div>
     <!-- ./Footer Component -->

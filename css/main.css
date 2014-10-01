@@ -5,10 +5,10 @@
 /* ==========================
 	  Reset
    ========================== */
-article, aside, figure, footer, header, hgroup, nav, section {
+article, aside, figure, footer, .sub-footer, header, hgroup, nav, section {
   display: block; }
 
-html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, abbr, address, cite, code, del, dfn, em, ins, kbd, q, samp, small, strong, var, b, i, dl, dt, dd, ul, li, fieldset, form, label, legend, table, caption, article, aside, figure, footer, header, hgroup, menu, nav, section, time, mark, audio, video {
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, abbr, address, cite, code, del, dfn, em, ins, kbd, q, samp, small, strong, var, b, i, dl, dt, dd, ul, li, fieldset, form, label, legend, table, caption, article, aside, figure, footer, .sub-footer, header, hgroup, menu, nav, section, time, mark, audio, video {
   margin-top: 0;
   margin-right: 0;
   margin-bottom: 0;
@@ -3125,17 +3125,18 @@ hr {
 /* ==========================================================================
     Footer -- Version: 0.0.1 - Compiled: timestamp()
     ========================================================================== */
-footer {
+footer, .sub-footer {
   padding-top: 2em;
   padding-right: 0;
   padding-bottom: 2em;
   padding-left: 0;
   background-color: #454545;
   color: #fff; }
-  footer .sub-footer {
-    margin-top: 2em;
-    padding-top: 2em;
-    border-top: 1px solid #5f5f5f; }
+
+.sub-footer {
+  border-top: 1px solid #5f5f5f;
+  background-color: #454545;
+  color: #fff; }
 
 /* ==========================================================================
     Qoppa -- Version: 0.0.1 - Compiled: timestamp()

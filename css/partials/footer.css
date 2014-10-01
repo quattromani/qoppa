@@ -1,7 +1,7 @@
 /* ==========================================================================
     Footer -- Version: 0.0.1 - Compiled: timestamp()
     ========================================================================== */
-footer {
+footer, .sub-footer {
   padding-top: 2em;
   padding-right: 0;
   padding-bottom: 2em;
@@ -9,10 +9,11 @@ footer {
   background-color: #454545;
   color: #fff;
 }
-footer .sub-footer {
-  margin-top: 2em;
-  padding-top: 2em;
+
+.sub-footer {
   border-top: 1px solid #5f5f5f;
+  background-color: #454545;
+  color: #fff;
 }
 
 /*# sourceMappingURL=footer.css.map */
