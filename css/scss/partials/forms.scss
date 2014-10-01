@@ -20,15 +20,15 @@
       max-width: 100%;
       @include padding(.35em, .5em);
       @include margin;
-      border: 1px solid $color-light-grey;
       outline: none;
+      border: 0;
       @include border-radius;
+      @include rgba($color-black, .2);
       font-weight: 300;
+      color: $color-white;
       @include transition(all, .2s, ease-in-out);
 
       &[type='search'] {
-        padding-left: 2em;
-        background: url('/scaffold/images/iconmonstr-magnifier-5-icon-48.png') no-repeat left center;
         background-size: 1em;
         background-position: .5em;
 
@@ -43,10 +43,6 @@
       &[type="checkbox"] {
         float: left;
         @include margin(.25em, .5em, 1em, .1em);
-      }
-
-      &:focus {
-        @include box-shadow(inset .3em 0 0 0 rgba($form-focus, .75));
       }
     }
 

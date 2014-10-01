@@ -23,23 +23,31 @@ select {
   margin-right: 0;
   margin-bottom: 0;
   margin-left: 0;
-  border: 1px solid #e6e6e6;
   outline: none;
+  border: 0;
   -webkit-border-radius: 0;
   -moz-border-radius: 0;
   border-radius: 0;
   -webkit-background-clip: padding-box;
   -moz-background-clip: padding-box;
   background-clip: padding-box;
+  background: rgba(0, 0, 0, 0.2);
   font-weight: 300;
+  color: #fff;
   will-change: transition;
   transition: all 0.2s ease-in-out;
+}
+.ie input[type]:not([type=range]), .ie
+textarea, .ie
+select {
+  background: transparent;
+  -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#33000000, endColorstr=#33000000)";
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#33000000,endColorstr=#33000000);
+  zoom: 1;
 }
 input[type]:not([type=range])[type='search'],
 textarea[type='search'],
 select[type='search'] {
-  padding-left: 2em;
-  background: url("/scaffold/images/iconmonstr-magnifier-5-icon-48.png") no-repeat left center;
   background-size: 1em;
   background-position: .5em;
 }
@@ -62,13 +70,6 @@ select[type="checkbox"] {
   margin-right: 0.5em;
   margin-bottom: 1em;
   margin-left: 0.1em;
-}
-input[type]:not([type=range]):focus,
-textarea:focus,
-select:focus {
-  -webkit-box-shadow: inset 0.3em 0 0 0 rgba(230, 230, 230, 0.75);
-  -moz-box-shadow: inset 0.3em 0 0 0 rgba(230, 230, 230, 0.75);
-  box-shadow: inset 0.3em 0 0 0 rgba(230, 230, 230, 0.75);
 }
 
 textarea {

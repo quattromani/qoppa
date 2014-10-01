@@ -3,7 +3,7 @@ name: Qoppa
 version: 0.0.1
 author: Max Quattromani
 email: max@maxquattromani.com
-description: ""
+description: "A leading, Denver-based Web Design and Development Agency with a combined 35 years of experience in design, development, marketing, content creation, and graphic design. Driven by a passion for combining art and technology; we create fantastic experiences for our customers and their users."
 baseurl: ""
 url: "http://qoppa.co"
 author: "Max Quattromani"
@@ -21,4 +21,4 @@ google_analytics: true
 google_analytics_id: UA-xxxxxxxx-x
 jquery_version: 1.9.0
 
-footer: "This is my footer"
+footer: "This is our footer. Ain't it cool? Don't steal."
