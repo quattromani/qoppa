@@ -18,7 +18,7 @@ highlighter: true
 exclude: ['node_modules', 'scss', 'DAM']
 
 google_analytics: true
-google_analytics_id: UA-xxxxxxxx-x
+google_analytics_id: UA-50387096-1
 jquery_version: 1.9.0
 
 footer: "This is our footer. Ain't it cool? Don't steal."

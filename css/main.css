@@ -2140,12 +2140,18 @@ header {
       @media (max-width: 40em) {
         header .logo h1 {
           border: 0; } }
+    @media (max-width: 40em) {
+      header .logo {
+        top: 0;
+        -webkit-transform: none;
+        -ms-transform: none;
+        transform: none; } }
   @media (max-width: 62em) {
     header {
       height: 300px; } }
   @media (max-width: 40em) {
     header {
-      height: 200px; } }
+      height: 150px; } }
 
 /* ==========================================================================
     Summary -- Version: 0.2.1 - Compiled: timestamp()
