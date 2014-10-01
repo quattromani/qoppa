@@ -1989,6 +1989,9 @@ samp {
     -moz-column-gap: 2em;
     column-gap: 2em; } }
 @media (max-width: 40em) {
+  .tablet-hidden {
+    display: block !important; }
+
   .mobile-hidden {
     display: none !important; }
 
@@ -3157,7 +3160,7 @@ footer, .sub-footer {
 
 /* ==========================================================================
     Qoppa -- Version: 0.0.1 - Compiled: timestamp()
-   ========================================================================== */
+    ========================================================================== */
 section {
   zoom: 1;
   display: inline-block;
@@ -3173,6 +3176,22 @@ section {
     clear: both; }
   section:only-child {
     margin-bottom: 0; }
+
+@media (max-width: 40em) {
+  .callout {
+    padding-top: 1em;
+    margin-top: 1em;
+    border-top: 1px solid #e6e6e6; }
+    .callout:first-child {
+      margin-top: 0;
+      margin-right: 0;
+      margin-bottom: 0;
+      margin-left: 0;
+      padding-top: 0;
+      padding-right: 0;
+      padding-bottom: 0;
+      padding-left: 0;
+      border: 0; } }
 
 /* ==========================================================================
     Jump To -- Version: 1.9.0.0 - Compiled: timestamp()

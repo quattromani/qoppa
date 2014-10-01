@@ -221,6 +221,10 @@ $widths: 5;
 
 @media (max-width: $bp-small) {
 
+  .tablet-hidden {
+    display: block !important;
+  }
+
   .mobile-hidden {
     display: none !important;
   }

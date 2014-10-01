@@ -1175,6 +1175,10 @@
   }
 }
 @media (max-width: 40em) {
+  .tablet-hidden {
+    display: block !important;
+  }
+
   .mobile-hidden {
     display: none !important;
   }
