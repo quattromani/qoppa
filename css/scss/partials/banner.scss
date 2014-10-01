@@ -21,22 +21,23 @@
           border: 4px solid currentColor;
           color: $color-white;
 
-          @include bp(bp-small) {
+          @include bp(bp-medium) {
             border: 0;
           }
         }
 
-        @include bp(bp-small) {
+        @include bp(bp-medium) {
           top: 0;
           transform: none;
         }
       }
 
       @include bp(bp-medium) {
-        height: 300px;
+        height: auto;
+        min-height: 200px;
       }
 
       @include bp(bp-small) {
-        height: 150px;
+        height: auto;
       }
     }

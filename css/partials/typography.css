@@ -151,7 +151,7 @@ h2,
 
 h3,
 .h3 {
-  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  font-family: "brandon", Arial, sans-serif;
   font-size: 30px;
   font-size: 3rem;
   font-weight: 700;
@@ -183,7 +183,7 @@ h4,
 
 h5,
 .h5 {
-  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  font-family: "brandon", Arial, sans-serif;
   font-size: 18px;
   font-size: 1.8rem;
   font-weight: 700;
@@ -219,18 +219,12 @@ small {
 }
 
 p,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
 ul,
 ol,
 dl,
 blockquote {
   clear: inherit;
-  margin-bottom: 0.33333em;
+  margin-bottom: 0.5em;
   vertical-align: middle;
 }
 
