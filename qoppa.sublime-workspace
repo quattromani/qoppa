@@ -252,6 +252,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			" fa-lg",
 			"vertical-al",
 			"rema",
 			"></",
@@ -378,8 +379,7 @@
 			"TWC",
 			"tma",
 			"relative",
-			"></",
-			"overlay"
+			"></"
 		],
 		"highlight": true,
 		"in_selection": false,

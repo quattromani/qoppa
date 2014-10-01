@@ -34,7 +34,9 @@ header .logo h1 {
 @media (max-width: 62em) {
   header .logo {
     top: 0;
-    transform: none;
+    -webkit-transform: translateY(0);
+    -ms-transform: translateY(0);
+    transform: translateY(0);
   }
 }
 @media (max-width: 62em) {
