@@ -10,6 +10,8 @@ author: "Max Quattromani"
 twitter_username: maxquattromani
 github_username:  quattromani
 
+footer: "This is our footer. Ain't it cool? Don't steal."
+
 # Build settings
 markdown: kramdown
 permalink: pretty
@@ -21,4 +23,13 @@ google_analytics: true
 google_analytics_id: UA-50387096-1
 jquery_version: 1.9.0
 
-footer: "This is our footer. Ain't it cool? Don't steal."
+sitemap:
+  file: "/sitemap.xml"
+  exclude:
+      - "/atom.xml"
+      - "/feed.xml"
+      - "/feed/index.xml"
+  include_posts:
+      - "/index.html"
+  change_frequency_name: "change_frequency"
+  priority_name: "priority"
