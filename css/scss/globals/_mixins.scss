@@ -62,9 +62,9 @@
     }
   }
 
-  @if $support-legacy {
-    #{$property}: $pxValues;
-  }
+ @if $support-legacy {
+  #{$property}: $pxValues;
+ }
   #{$property}: $remValues;
 }
 
@@ -152,15 +152,15 @@ $marginless-col-width: $width / $site-column-count;
   width: ($n * $col-width) + (($n - 1) * $site-gutter-width);
   @if $n == $site-column-count {
     margin-left: 0;
-    } @else {
-      margin-left: $site-gutter-width;
-    }
+  } @else {
+    margin-left: $site-gutter-width;
   }
+}
 
-  @mixin marginless-span($n: 1) {
-    width: ($n * $marginless-col-width);
-    margin-left: 0;
-  }
+@mixin marginless-span($n: 1) {
+  width: ($n * $marginless-col-width);
+  margin-left: 0;
+}
 
 // remove margin from all last columns
 @mixin first() {
@@ -180,15 +180,13 @@ $marginless-col-width: $width / $site-column-count;
 // Flexbox
 @mixin flexbox() {
   display: -webkit-box;
-  display: -moz-box;
-  display: -ms-flexbox;
   display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
 }
 
 @mixin flex($values) {
   -webkit-box-flex: $values;
-  -moz-box-flex:  $values;
   -webkit-flex:  $values;
   -ms-flex:  $values;
   flex:  $values;
@@ -196,7 +194,6 @@ $marginless-col-width: $width / $site-column-count;
 
 @mixin order($val) {
   -webkit-box-ordinal-group: $val;
-  -moz-box-ordinal-group: $val;
   -ms-flex-order: $val;
   -webkit-order: $val;
   order: $val;
@@ -211,15 +208,11 @@ $marginless-col-width: $width / $site-column-count;
 
 // Background Clip
 @mixin background-clip($type: padding-box) {
-  -webkit-background-clip: $type;
-  -moz-background-clip: $type;
   background-clip: $type;
 }
 
 // Border Radius
 @mixin border-radius($radius: $border-radius) {
-  -webkit-border-radius: $radius;
-  -moz-border-radius: $radius;
   border-radius: $radius;
   @include background-clip;
 }
@@ -262,8 +255,6 @@ $marginless-col-width: $width / $site-column-count;
 
 // Box-Shadow
 @mixin box-shadow($value: 0 1px 2px 0 #888) {
-  -webkit-box-shadow: $value;
-  -moz-box-shadow: $value;
   box-shadow: $value;
 }
 
@@ -271,8 +262,6 @@ $marginless-col-width: $width / $site-column-count;
 @mixin vertical-align {
   position: relative;
   top: 50%;
-  -webkit-transform: translateY(-50%);
-  -ms-transform: translateY(-50%);
   transform: translateY(-50%);
 }
 
@@ -294,7 +283,7 @@ $marginless-col-width: $width / $site-column-count;
   will-change: transform;
   transform: rotate($degrees * 1deg);
   -ms-filter: "progid:DXImageTransform.Microsoft.Matrix(sizingMethod='auto expand', M11=#{cos($degrees)}, M12=-#{sin($degrees)}, M21=#{sin($degrees)}, M22=#{cos($degrees)})";
-  filter: progid:DXImageTransform.Microsoft.Matrix(sizingMethod='auto expand', M11=#{cos($degrees)}, M12=-#{sin($degrees)}, M21=#{sin($degrees)}, M22=#{cos($degrees)});
+      filter: progid:DXImageTransform.Microsoft.Matrix(sizingMethod='auto expand', M11=#{cos($degrees)}, M12=-#{sin($degrees)}, M21=#{sin($degrees)}, M22=#{cos($degrees)});
   zoom: 1;
 }
 

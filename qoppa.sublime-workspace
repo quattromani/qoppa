@@ -252,6 +252,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"cach",
 			"bottom",
 			"vertical",
 			" fa-lg",
@@ -378,8 +379,7 @@
 			"centennial",
 			"Centennial",
 			"centennial",
-			"TWC",
-			"tma"
+			"TWC"
 		],
 		"highlight": true,
 		"in_selection": false,

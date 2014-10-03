@@ -25,11 +25,7 @@ select {
   margin-left: 0;
   outline: none;
   border: 0;
-  -webkit-border-radius: 0;
-  -moz-border-radius: 0;
   border-radius: 0;
-  -webkit-background-clip: padding-box;
-  -moz-background-clip: padding-box;
   background-clip: padding-box;
   background: rgba(0, 0, 0, 0.2);
   font-weight: 300;
@@ -87,8 +83,6 @@ input[type="checkbox"], input[type="radio"] {
 }
 input[type="checkbox"]:focus, input[type="radio"]:focus {
   outline: none;
-  -webkit-box-shadow: none;
-  -moz-box-shadow: none;
   box-shadow: none;
 }
 input[type="range"] {
@@ -101,11 +95,7 @@ input[type="range"] {
 }
 input[type="range"]::-webkit-slider-thumb {
   -webkit-appearance: none;
-  -webkit-border-radius: 100%;
-  -moz-border-radius: 100%;
   border-radius: 100%;
-  -webkit-background-clip: padding-box;
-  -moz-background-clip: padding-box;
   background-clip: padding-box;
   background-color: #ccc;
   width: 1em;
@@ -231,11 +221,7 @@ input.radio:empty ~ label:after {
   width: 2.5em;
   height: 1.5em;
   background: #ef272d;
-  -webkit-border-radius: 100px;
-  -moz-border-radius: 100px;
   border-radius: 100px;
-  -webkit-background-clip: padding-box;
-  -moz-background-clip: padding-box;
   background-clip: padding-box;
   will-change: transition;
   transition: all 100ms ease-in;
@@ -255,11 +241,7 @@ input.radio:empty ~ label:after {
   top: .375em;
   margin-left: .375em;
   background: #fff;
-  -webkit-border-radius: 100px;
-  -moz-border-radius: 100px;
   border-radius: 100px;
-  -webkit-background-clip: padding-box;
-  -moz-background-clip: padding-box;
   background-clip: padding-box;
 }
 
