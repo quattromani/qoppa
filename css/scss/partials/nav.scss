@@ -7,9 +7,6 @@
 
 nav {
   background-color: $color-primary-red;
-  position: fixed;
-  width: 100%;
-  z-index: 9991;
 
   .container {
     display: table;
@@ -38,5 +35,11 @@ nav {
       color: $color-white;
       box-shadow: 0 2px 0 0 $color-white;
     }
+  }
+
+  @include bp(bp-big) {
+    position: fixed;
+    width: 100%;
+    z-index: 9991;
   }
 }
