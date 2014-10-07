@@ -101,6 +101,7 @@
 	},
 	"file_history":
 	[
+		"/Users/Q/Sites/qoppa/sitemap.xml",
 		"/Users/Q/Sites/qoppa/_includes/footer.html",
 		"/Users/Q/Sites/qoppa/_config.yml",
 		"/Users/Q/Sites/qoppa/index.html",
@@ -227,8 +228,7 @@
 		"/Users/Q/Sites/terracare/contact-us/email.php",
 		"/Users/Q/Sites/terracare/request-a-bid/email.php",
 		"/Users/Q/Sites/terracare/commercial-services/irrigation-services/index.html",
-		"/Users/Q/Sites/terracare/js/cookie.js",
-		"/Users/Q/Sites/terracare/js/modals.js"
+		"/Users/Q/Sites/terracare/js/cookie.js"
 	],
 	"find":
 	{
@@ -252,6 +252,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"site",
 			"cach",
 			"bottom",
 			"vertical",
@@ -378,8 +379,7 @@
 			"Centennial",
 			"centennial",
 			"Centennial",
-			"centennial",
-			"TWC"
+			"centennial"
 		],
 		"highlight": true,
 		"in_selection": false,

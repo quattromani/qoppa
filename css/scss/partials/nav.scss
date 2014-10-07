@@ -7,6 +7,9 @@
 
 nav {
   background-color: $color-primary-red;
+  position: fixed;
+  width: 100%;
+  z-index: 9991;
 
   .container {
     display: table;

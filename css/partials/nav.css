@@ -3,6 +3,9 @@
    ========================================================================== */
 nav {
   background-color: #ef272d;
+  position: fixed;
+  width: 100%;
+  z-index: 9991;
 }
 nav .container {
   display: table;
