@@ -1,207 +1,56 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<urlset xmlns='http://www.sitemaps.org/schemas/sitemap/0.9'>
-    <url>
-        <loc>http://qoppa.co/jekyll/update/2014/04/16/welcome-to-jekyll/</loc>
-        <lastmod>2014-09-30T17:07:07-06:00</lastmod>
-    </url>
-    <url>
-        <loc>http://qoppa.co/404.html</loc>
-        <lastmod>2014-09-30T17:07:07-06:00</lastmod>
-    </url>
-    <url>
-        <loc>http://qoppa.co/sandbox/input-bkgd/</loc>
-        <lastmod>2014-09-30T17:07:07-06:00</lastmod>
-    </url>
-    <url>
-        <loc>http://qoppa.co/</loc>
-        <lastmod>2014-10-01T17:16:02-06:00</lastmod>
-    </url>
-    <url>
-        <loc>http://qoppa.co/patterns/box/</loc>
-        <lastmod>2014-09-30T17:07:07-06:00</lastmod>
-    </url>
-    <url>
-        <loc>http://qoppa.co/about/</loc>
-        <lastmod>2014-10-01T15:21:10-06:00</lastmod>
-    </url>
-    <url>
-        <loc>http://qoppa.co/patterns/carousel/</loc>
-        <lastmod>2014-09-30T17:07:07-06:00</lastmod>
-    </url>
-    <url>
-        <loc>http://qoppa.co/patterns/forms/</loc>
-        <lastmod>2014-09-30T17:07:07-06:00</lastmod>
-    </url>
-    <url>
-        <loc>http://qoppa.co/patterns/</loc>
-        <lastmod>2014-10-01T17:28:05-06:00</lastmod>
-    </url>
-    <url>
-        <loc>http://qoppa.co/patterns/breadcrumbs/</loc>
-        <lastmod>2014-09-30T17:07:07-06:00</lastmod>
-    </url>
-    <url>
-        <loc>http://qoppa.co/patterns/lists/</loc>
-        <lastmod>2014-09-30T17:07:07-06:00</lastmod>
-    </url>
-    <url>
-        <loc>http://qoppa.co/patterns/message-box/</loc>
-        <lastmod>2014-09-30T17:07:07-06:00</lastmod>
-    </url>
-    <url>
-        <loc>http://qoppa.co/patterns/info-box/</loc>
-        <lastmod>2014-09-30T17:07:07-06:00</lastmod>
-    </url>
-    <url>
-        <loc>http://qoppa.co/patterns/pagination/</loc>
-        <lastmod>2014-09-30T17:07:07-06:00</lastmod>
-    </url>
-    <url>
-        <loc>http://qoppa.co/patterns/pills/</loc>
-        <lastmod>2014-09-30T17:07:07-06:00</lastmod>
-    </url>
-    <url>
-        <loc>http://qoppa.co/patterns/modals/</loc>
-        <lastmod>2014-09-30T17:07:07-06:00</lastmod>
-    </url>
-    <url>
-        <loc>http://qoppa.co/patterns/tables/</loc>
-        <lastmod>2014-09-30T17:07:07-06:00</lastmod>
-    </url>
-    <url>
-        <loc>http://qoppa.co/sandbox/cats/</loc>
-        <lastmod>2014-09-30T17:07:07-06:00</lastmod>
-    </url>
-    <url>
-        <loc>http://qoppa.co/patterns/summary/</loc>
-        <lastmod>2014-09-30T17:07:07-06:00</lastmod>
-    </url>
-    <url>
-        <loc>http://qoppa.co/sandbox/cmp-progress-focus/</loc>
-        <lastmod>2014-09-30T17:07:07-06:00</lastmod>
-    </url>
-    <url>
-        <loc>http://qoppa.co/sandbox/compliance/</loc>
-        <lastmod>2014-09-30T17:07:07-06:00</lastmod>
-    </url>
-    <url>
-        <loc>http://qoppa.co/sandbox/data-image/</loc>
-        <lastmod>2014-09-30T17:07:07-06:00</lastmod>
-    </url>
-    <url>
-        <loc>http://qoppa.co/sandbox/hr-test/</loc>
-        <lastmod>2014-09-30T17:07:07-06:00</lastmod>
-    </url>
-    <url>
-        <loc>http://qoppa.co/sandbox/</loc>
-        <lastmod>2014-09-30T17:07:07-06:00</lastmod>
-    </url>
-    <url>
-        <loc>http://qoppa.co/sandbox/glass/</loc>
-        <lastmod>2014-09-30T17:07:07-06:00</lastmod>
-    </url>
-    <url>
-        <loc>http://qoppa.co/sandbox/logo/</loc>
-        <lastmod>2014-09-30T17:07:07-06:00</lastmod>
-    </url>
-    <url>
-        <loc>http://qoppa.co/sandbox/mailto-button/</loc>
-        <lastmod>2014-09-30T17:07:07-06:00</lastmod>
-    </url>
-    <url>
-        <loc>http://qoppa.co/sandbox/slide-checkbox/</loc>
-        <lastmod>2014-09-30T17:07:07-06:00</lastmod>
-    </url>
-    <url>
-        <loc>http://qoppa.co/SDLC/</loc>
-        <lastmod>2014-10-01T16:45:24-06:00</lastmod>
-    </url>
-    <url>
-        <loc>http://qoppa.co/styleguide/about/</loc>
-        <lastmod>2014-09-30T17:07:07-06:00</lastmod>
-    </url>
-    <url>
-        <loc>http://qoppa.co/styleguide/audio/</loc>
-        <lastmod>2014-09-30T17:07:07-06:00</lastmod>
-    </url>
-    <url>
-        <loc>http://qoppa.co/styleguide/best_practices/</loc>
-        <lastmod>2014-09-30T17:07:07-06:00</lastmod>
-    </url>
-    <url>
-        <loc>http://qoppa.co/styleguide/buttons/</loc>
-        <lastmod>2014-09-30T17:07:07-06:00</lastmod>
-    </url>
-    <url>
-        <loc>http://qoppa.co/styleguide/colors/</loc>
-        <lastmod>2014-09-30T17:07:07-06:00</lastmod>
-    </url>
-    <url>
-        <loc>http://qoppa.co/styleguide/flexbox/</loc>
-        <lastmod>2014-09-30T17:07:07-06:00</lastmod>
-    </url>
-    <url>
-        <loc>http://qoppa.co/styleguide/grid/combinations/</loc>
-        <lastmod>2014-09-30T17:07:07-06:00</lastmod>
-    </url>
-    <url>
-        <loc>http://qoppa.co/styleguide/grid/flexbox/</loc>
-        <lastmod>2014-09-30T17:07:07-06:00</lastmod>
-    </url>
-    <url>
-        <loc>http://qoppa.co/styleguide/grid/</loc>
-        <lastmod>2014-09-30T17:07:07-06:00</lastmod>
-    </url>
-    <url>
-        <loc>http://qoppa.co/styleguide/grid/marginless/combinations/</loc>
-        <lastmod>2014-09-30T17:07:07-06:00</lastmod>
-    </url>
-    <url>
-        <loc>http://qoppa.co/styleguide/grid/marginless/</loc>
-        <lastmod>2014-09-30T17:07:07-06:00</lastmod>
-    </url>
-    <url>
-        <loc>http://qoppa.co/styleguide/images/</loc>
-        <lastmod>2014-09-30T17:07:07-06:00</lastmod>
-    </url>
-    <url>
-        <loc>http://qoppa.co/styleguide/</loc>
-        <lastmod>2014-10-01T19:45:42-06:00</lastmod>
-    </url>
-    <url>
-        <loc>http://qoppa.co/styleguide/typography/body_text/</loc>
-        <lastmod>2014-09-30T17:07:07-06:00</lastmod>
-    </url>
-    <url>
-        <loc>http://qoppa.co/styleguide/typography/fonts/</loc>
-        <lastmod>2014-09-30T17:07:07-06:00</lastmod>
-    </url>
-    <url>
-        <loc>http://qoppa.co/styleguide/typography/headings/</loc>
-        <lastmod>2014-09-30T17:07:07-06:00</lastmod>
-    </url>
-    <url>
-        <loc>http://qoppa.co/styleguide/typography/icons/</loc>
-        <lastmod>2014-09-30T17:07:07-06:00</lastmod>
-    </url>
-    <url>
-        <loc>http://qoppa.co/styleguide/typography/</loc>
-        <lastmod>2014-09-30T17:07:07-06:00</lastmod>
-    </url>
-    <url>
-        <loc>http://qoppa.co/styleguide/typography/inline_text/</loc>
-        <lastmod>2014-09-30T17:07:07-06:00</lastmod>
-    </url>
-    <url>
-        <loc>http://qoppa.co/styleguide/typography/text_alignment/</loc>
-        <lastmod>2014-09-30T17:07:07-06:00</lastmod>
-    </url>
-    <url>
-        <loc>http://qoppa.co/styleguide/video/</loc>
-        <lastmod>2014-09-30T17:07:07-06:00</lastmod>
-    </url>
-    <url>
-        <loc>http://qoppa.co/thank-you/</loc>
-        <lastmod>2014-09-30T23:21:22-06:00</lastmod>
-    </url>
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+
+<url>
+  <loc>http://qoppa.co/</loc>
+  <lastmod>2014-10-08T03:01:28+00:00</lastmod>
+</url>
+<url>
+  <loc>http://qoppa.co/about/</loc>
+  <lastmod>2014-10-08T03:01:28+00:00</lastmod>
+</url>
+<url>
+  <loc>http://qoppa.co/SDLC/</loc>
+  <lastmod>2014-10-08T03:01:28+00:00</lastmod>
+</url>
+<url>
+  <loc>http://qoppa.co/styleguide/</loc>
+  <lastmod>2014-10-08T03:01:28+00:00</lastmod>
+</url>
+<url>
+  <loc>http://qoppa.co/styleguide/colors/</loc>
+  <lastmod>2014-10-08T03:01:28+00:00</lastmod>
+</url>
+<url>
+  <loc>http://qoppa.co/styleguide/typography/</loc>
+  <lastmod>2014-10-08T03:01:28+00:00</lastmod>
+</url>
+<url>
+  <loc>http://qoppa.co/styleguide/buttons/</loc>
+  <lastmod>2014-10-08T03:01:28+00:00</lastmod>
+</url>
+<url>
+  <loc>http://qoppa.co/styleguide/grid/</loc>
+  <lastmod>2014-10-08T03:01:28+00:00</lastmod>
+</url>
+<url>
+  <loc>http://qoppa.co/styleguide/images/</loc>
+  <lastmod>2014-10-08T03:01:28+00:00</lastmod>
+</url>
+<url>
+  <loc>http://qoppa.co/styleguide/video/</loc>
+  <lastmod>2014-10-08T03:01:28+00:00</lastmod>
+</url>
+<url>
+  <loc>http://qoppa.co/styleguide/audio/</loc>
+  <lastmod>2014-10-08T03:01:28+00:00</lastmod>
+</url>
+<url>
+  <loc>http://qoppa.co/styleguide/best_practices/</loc>
+  <lastmod>2014-10-08T03:01:28+00:00</lastmod>
+</url>
 </urlset>
