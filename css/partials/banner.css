@@ -3,30 +3,25 @@
     ========================================================================== */
 header {
   position: relative;
-  padding-top: 3em;
 }
 header.banner {
-  min-height: 400px;
+  height: 100%;
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: center center;
+  background-position: bottom center;
 }
 header.banner .logo {
+  position: absolute;
+  top: 50%;
+  top: -webkit-calc(50% - 1.5em);
+  top: -moz-calc(50% - 1.5em);
+  top: calc(50% - 1.5em);
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
   text-align: center;
-}
-@media (min-width: 68.75em) {
-  header.banner .logo {
-    position: absolute;
-    top: 50%;
-    top: -webkit-calc(50% + 1.5em);
-    top: -moz-calc(50% + 1.5em);
-    top: calc(50% + 1.5em);
-    left: 50%;
-    -webkit-transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
-  }
 }
 header.banner .logo h1 {
   display: inline-block;
@@ -43,18 +38,6 @@ header.banner .logo h1 {
 @media (max-width: 62em) {
   header.banner .logo h1 {
     border: 0;
-  }
-}
-@media (max-width: 62em) {
-  header.banner {
-    height: auto;
-    min-height: 100px;
-    padding: 0;
-  }
-}
-@media (max-width: 40em) {
-  header.banner {
-    height: auto;
   }
 }
 
