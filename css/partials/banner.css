@@ -2,17 +2,20 @@
     Banner -- Version: 0.2.1- Compiled: timestamp()
     ========================================================================== */
 header {
+  padding-top: 3em;
+}
+header.banner {
   width: 100%;
   height: 500px;
   background-size: cover;
 }
-header .logo {
+header.banner .logo {
   position: relative;
   top: 50%;
   transform: translateY(-50%);
   text-align: center;
 }
-header .logo h1 {
+header.banner .logo h1 {
   display: inline-block;
   *zoom: 1;
   *display: inline;
@@ -25,12 +28,12 @@ header .logo h1 {
   color: #fff;
 }
 @media (max-width: 62em) {
-  header .logo h1 {
+  header.banner .logo h1 {
     border: 0;
   }
 }
 @media (max-width: 62em) {
-  header .logo {
+  header.banner .logo {
     top: 0;
     -webkit-transform: translateY(0);
     -ms-transform: translateY(0);
@@ -38,13 +41,13 @@ header .logo h1 {
   }
 }
 @media (max-width: 62em) {
-  header {
+  header.banner {
     height: auto;
-    min-height: 200px;
+    padding: 0;
   }
 }
 @media (max-width: 40em) {
-  header {
+  header.banner {
     height: auto;
   }
 }

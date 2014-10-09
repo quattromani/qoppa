@@ -70,6 +70,7 @@ select[type="checkbox"] {
 
 textarea {
   overflow: auto;
+  min-height: 5em;
   vertical-align: top;
 }
 
@@ -177,6 +178,11 @@ input::-webkit-inner-spin-button {
 .formitem {
   float: left;
   width: 100%;
+}
+@media (max-width: 62em) {
+  .formitem {
+    margin-bottom: 1em;
+  }
 }
 
 .required:after {

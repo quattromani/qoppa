@@ -3780,44 +3780,46 @@ dd {
     Banner -- Version: 0.2.1- Compiled: timestamp()
     ========================================================================== */
 header {
-  width: 100%;
-  height: 500px;
-  -webkit-background-size: cover;
-  background-size: cover; }
-  header .logo {
-    position: relative;
-    top: 50%;
-    -webkit-transform: translateY(-50%);
-    -ms-transform: translateY(-50%);
-    transform: translateY(-50%);
-    text-align: center; }
-    header .logo h1 {
-      display: inline-block;
-      *zoom: 1;
-      *display: inline;
-      *vertical-align: auto;
-      padding-top: 1em;
-      padding-right: 1em;
-      padding-bottom: 1em;
-      padding-left: 1em;
-      border: 4px solid currentColor;
-      color: #fff; }
+  padding-top: 3em; }
+  header.banner {
+    width: 100%;
+    height: 500px;
+    -webkit-background-size: cover;
+    background-size: cover; }
+    header.banner .logo {
+      position: relative;
+      top: 50%;
+      -webkit-transform: translateY(-50%);
+      -ms-transform: translateY(-50%);
+      transform: translateY(-50%);
+      text-align: center; }
+      header.banner .logo h1 {
+        display: inline-block;
+        *zoom: 1;
+        *display: inline;
+        *vertical-align: auto;
+        padding-top: 1em;
+        padding-right: 1em;
+        padding-bottom: 1em;
+        padding-left: 1em;
+        border: 4px solid currentColor;
+        color: #fff; }
+        @media (max-width: 62em) {
+          header.banner .logo h1 {
+            border: 0; } }
       @media (max-width: 62em) {
-        header .logo h1 {
-          border: 0; } }
+        header.banner .logo {
+          top: 0;
+          -webkit-transform: translateY(0);
+          -ms-transform: translateY(0);
+          transform: translateY(0); } }
     @media (max-width: 62em) {
-      header .logo {
-        top: 0;
-        -webkit-transform: translateY(0);
-        -ms-transform: translateY(0);
-        transform: translateY(0); } }
-  @media (max-width: 62em) {
-    header {
-      height: auto;
-      min-height: 200px; } }
-  @media (max-width: 40em) {
-    header {
-      height: auto; } }
+      header.banner {
+        height: auto;
+        padding: 0; } }
+    @media (max-width: 40em) {
+      header.banner {
+        height: auto; } }
 
 /* ==========================================================================
     Summary -- Version: 0.2.1 - Compiled: timestamp()
@@ -4429,6 +4431,7 @@ select {
 
 textarea {
   overflow: auto;
+  min-height: 5em;
   vertical-align: top; }
 
 input[type="checkbox"], input[type="radio"] {
@@ -4520,6 +4523,9 @@ input::-webkit-inner-spin-button {
 .formitem {
   float: left;
   width: 100%; }
+  @media (max-width: 62em) {
+    .formitem {
+      margin-bottom: 1em; } }
 
 .required:after {
   content: '*'; }

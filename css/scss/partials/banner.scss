@@ -6,39 +6,43 @@
     ========================================================================== */
 
     header {
-      width: 100%;
-      height: 500px;
-      background-size: cover;
+      padding-top: 3em;
 
-      .logo {
-        @include vertical-align;
-        text-align: center;
+      &.banner {
+        width: 100%;
+        height: 500px;
+        background-size: cover;
 
-        h1 {
-          @include inline-block;
-          @include padding(1em);
-          border: 4px solid currentColor;
-          color: $color-white;
+        .logo {
+          @include vertical-align;
+          text-align: center;
+
+          h1 {
+            @include inline-block;
+            @include padding(1em);
+            border: 4px solid currentColor;
+            color: $color-white;
+
+            @include bp(bp-medium) {
+              border: 0;
+            }
+          }
 
           @include bp(bp-medium) {
-            border: 0;
+            top: 0;
+            -webkit-transform: translateY(0);
+            -ms-transform: translateY(0);
+            transform: translateY(0);
           }
         }
 
         @include bp(bp-medium) {
-          top: 0;
-          -webkit-transform: translateY(0);
-          -ms-transform: translateY(0);
-          transform: translateY(0);
+          height: auto;
+          padding: 0;
         }
-      }
 
-      @include bp(bp-medium) {
-        height: auto;
-        min-height: 200px;
-      }
-
-      @include bp(bp-small) {
-        height: auto;
+        @include bp(bp-small) {
+          height: auto;
+        }
       }
     }
