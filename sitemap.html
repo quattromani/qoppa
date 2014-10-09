@@ -3,6 +3,12 @@ layout: default
 title: Sitemap.html
 ---
 
+<h1>All Pages</h1>
+<ul class="posts">
+{% for page in site.pages %}
+<li><a href="{{ page.url }}"> {{ page.title }} </a> </li>
+{% endfor %}
+
 <h1>All Posts</h1>
 <ul class="posts">
   {% for post in site.posts %}
@@ -10,14 +16,7 @@ title: Sitemap.html
   {% endfor %}
 </ul>
 
-<h1>All Pages</h1>
-<ul class="posts">
-{% for page in site.pages %}
-<li><a href="{{ page.url }}"> {{ page.title }} </a> </li>
-{% endfor %}
-
-
-<ul>
+<!-- <ul>
   <li>
     <a href="/">Qoppa.co</a>
   </li>
@@ -33,4 +32,4 @@ title: Sitemap.html
   <li>
     <a href="/patterns">Pattern Library</a>
   </li>
-</ul>
+</ul> -->
