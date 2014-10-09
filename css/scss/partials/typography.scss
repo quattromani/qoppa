@@ -60,6 +60,7 @@
 
 .lede {
   @include font-size($lede-text);
+  margin-botton: $margin;
 }
 
 .body-text {
