@@ -6,16 +6,28 @@
     ========================================================================== */
 
     header {
+      position: relative;
       padding-top: 3em;
 
       &.banner {
-        width: 100%;
-        height: 400px;
+        min-height: 400px;
+        background-attachment: fixed;
+        background-repeat: no-repeat;
         background-size: cover;
-        background-position: center;
+        background-position: center center;
 
         .logo {
-          @include vertical-align;
+          @include bp(bp-big) {
+            position: absolute;
+            top: 50%;
+            top: -webkit-calc(50% + 1.5em);
+            top: -moz-calc(50% + 1.5em);
+            top: calc(50% + 1.5em);
+            left: 50%;
+            -webkit-transform: translate(-50%, -50%);
+            -ms-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+          }
           text-align: center;
 
           h1 {
@@ -29,16 +41,17 @@
             }
           }
 
-          @include bp(bp-medium) {
-            top: 0;
-            -webkit-transform: translateY(0);
-            -ms-transform: translateY(0);
-            transform: translateY(0);
-          }
+          // @include bp(bp-medium) {
+          //   top: 0;
+          //   -webkit-transform: translateY(0);
+          //   -ms-transform: translateY(0);
+          //   transform: translateY(0);
+          // }
         }
 
         @include bp(bp-medium) {
           height: auto;
+          min-height: 100px;
           padding: 0;
         }
 

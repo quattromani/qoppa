@@ -22,7 +22,9 @@ html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pr
   list-style: none outside none;
   vertical-align: baseline; }
 
-html {
+html,
+body,
+main {
   height: 100%;
   font-family: "proximanova", Arial, sans-serif, Arial, Sans-Serif;
   font-style: normal;
@@ -3781,20 +3783,27 @@ dd {
     Banner -- Version: 0.2.1- Compiled: timestamp()
     ========================================================================== */
 header {
+  position: relative;
   padding-top: 3em; }
   header.banner {
-    width: 100%;
-    height: 400px;
+    min-height: 400px;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
     -webkit-background-size: cover;
     background-size: cover;
-    background-position: center; }
+    background-position: center center; }
     header.banner .logo {
-      position: relative;
-      top: 50%;
-      -webkit-transform: translateY(-50%);
-      -ms-transform: translateY(-50%);
-      transform: translateY(-50%);
       text-align: center; }
+      @media (min-width: 68.75em) {
+        header.banner .logo {
+          position: absolute;
+          top: 50%;
+          top: -webkit-calc(50% + 1.5em);
+          top: calc(50% + 1.5em);
+          left: 50%;
+          -webkit-transform: translate(-50%, -50%);
+          -ms-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%); } }
       header.banner .logo h1 {
         display: inline-block;
         *zoom: 1;
@@ -3809,15 +3818,10 @@ header {
         @media (max-width: 62em) {
           header.banner .logo h1 {
             border: 0; } }
-      @media (max-width: 62em) {
-        header.banner .logo {
-          top: 0;
-          -webkit-transform: translateY(0);
-          -ms-transform: translateY(0);
-          transform: translateY(0); } }
     @media (max-width: 62em) {
       header.banner {
         height: auto;
+        min-height: 100px;
         padding: 0; } }
     @media (max-width: 40em) {
       header.banner {
