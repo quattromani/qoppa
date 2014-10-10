@@ -132,11 +132,11 @@ button,
 }
 
 .cta {
-  @include box-shadow(inset 0 0 0 1px $color-primary-red);
+  @include box-shadow(inset 0 0 0 3px $color-primary-red);
 
   &:hover {
     background: none;
-    @include box-shadow(inset 0 0 0 1px $color-secondary-red);
+    @include box-shadow(inset 0 0 0 3px $color-secondary-red);
   }
 }
 

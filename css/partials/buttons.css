@@ -233,11 +233,11 @@ button.btn-sm,
 }
 
 .cta {
-  box-shadow: inset 0 0 0 1px #ef272d;
+  box-shadow: inset 0 0 0 3px #ef272d;
 }
 .cta:hover {
   background: none;
-  box-shadow: inset 0 0 0 1px #d31016;
+  box-shadow: inset 0 0 0 3px #d31016;
 }
 
 @-webkit-keyframes rotation {
