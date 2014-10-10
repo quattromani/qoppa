@@ -515,9 +515,12 @@ textarea {
 /* Modules */
 /* ==========================================================================
     Nav -- Version: 0.4.0 - Compiled: timestamp()
-   ========================================================================== */
+    ========================================================================== */
 nav {
-  background-color: #ef272d; }
+  position: fixed;
+  width: 100%;
+  background-color: #ef272d;
+  z-index: 9991; }
   nav .container {
     display: table;
     width: 100%; }
@@ -542,11 +545,6 @@ nav {
       color: #fff;
       -webkit-box-shadow: 0 2px 0 0 #fff;
       box-shadow: 0 2px 0 0 #fff; }
-  @media (min-width: 68.75em) {
-    nav {
-      position: fixed;
-      width: 100%;
-      z-index: 9991; } }
 
 /* ==========================================================================
     Colors & Gradients -- Version: 0.4.3 - Compiled: timestamp()
@@ -3815,6 +3813,19 @@ header {
         @media (max-width: 62em) {
           header.banner .logo h1 {
             border: 0; } }
+      @media (max-width: 40em) {
+        header.banner .logo {
+          position: relative;
+          top: 0;
+          left: 0;
+          padding-top: 3em;
+          -webkit-transform: translate(0, 0);
+          -ms-transform: translate(0, 0);
+          transform: translate(0, 0); } }
+    @media (max-width: 40em) {
+      header.banner {
+        height: auto;
+        background-attachment: inherit; } }
 
 /* ==========================================================================
     Summary -- Version: 0.2.1 - Compiled: timestamp()

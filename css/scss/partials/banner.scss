@@ -37,6 +37,20 @@
               border: 0;
             }
           }
+          @include bp(bp-small) {
+            position: relative;
+            top: 0;
+            left: 0;
+            padding-top: 3em;
+            -webkit-transform: translate(0, 0);
+            -ms-transform: translate(0, 0);
+            transform: translate(0, 0);
+          }
+        }
+
+        @include bp(bp-small) {
+          height: auto;
+          background-attachment: inherit;
         }
       }
     }
