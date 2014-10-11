@@ -101,6 +101,18 @@
 	},
 	"file_history":
 	[
+		"/Users/Q/Sites/qoppa/_includes/patterns/box/index.html",
+		"/Users/Q/Sites/qoppa/_includes/contact.html",
+		"/Users/Q/Sites/qoppa/_includes/patterns/breadcrumbs/index.html",
+		"/Users/Q/Sites/qoppa/_includes/patterns/forms/index.html",
+		"/Users/Q/Sites/qoppa/_includes/patterns/lists/index.html",
+		"/Users/Q/Sites/qoppa/_includes/patterns/modals/index.html",
+		"/Users/Q/Sites/qoppa/_includes/patterns/pagination/index.html",
+		"/Users/Q/Sites/qoppa/_includes/patterns/pills/index.html",
+		"/Users/Q/Sites/qoppa/_includes/patterns/message-box/index.html",
+		"/Users/Q/Sites/qoppa/_includes/patterns/info-box/index.html",
+		"/Users/Q/Sites/qoppa/_includes/patterns/tables/index.html",
+		"/Users/Q/Sites/qoppa/_includes/patterns/summary/index.html",
 		"/Users/Q/Sites/qoppa/robots.txt",
 		"/Users/Q/Sites/qoppa/index.html",
 		"/Users/Q/Sites/qoppa/_includes/footer.html",
@@ -143,7 +155,6 @@
 		"/Users/Q/Sites/qoppa/sitemap.xml",
 		"/Users/Q/Sites/qoppa/_includes/nav.html",
 		"/Users/Q/Sites/qoppa/css/scss/partials/layout.scss",
-		"/Users/Q/Sites/qoppa/_includes/contact.html",
 		"/Users/Q/Sites/qoppa/thank-you/index.html",
 		"/Users/Q/Sites/qoppa/css/scss/partials/footer.scss",
 		"/Users/Q/Sites/qoppa/_data/nav.yml",
@@ -217,18 +228,7 @@
 		"/Users/Q/Sites/terracare/css/scss/partials/blog.scss",
 		"/Users/Q/Sites/terracare/public-services/traffic-control/index.html",
 		"/Users/Q/Sites/terracare/responsibility/community-investment/index.html",
-		"/Users/Q/Sites/terracare/responsibility/safety/index.html",
-		"/Users/Q/Sites/terracare/responsibility/water-management/index.html",
-		"/Users/Q/Sites/terracare/about-us/index.html",
-		"/Users/Q/Sites/terracare/_layouts/patterns.html",
-		"/Users/Q/Sites/terracare/slick/slick.css",
-		"/Users/Q/Sites/terracare/index.html",
-		"/Users/Q/Sites/terracare/css/scss/partials/videos.scss",
-		"/Users/Q/Sites/terracare/_data/associations.yml",
-		"/Users/Q/Sites/terracare/_includes/footer.html",
-		"/Users/Q/Sites/terracare/css/scss/theme/_base-theme.scss",
-		"/Users/Q/Sites/terracare/css/scss/partials/lists.scss",
-		"/Users/Q/Sites/terracare/_includes/sidebar.html"
+		"/Users/Q/Sites/terracare/responsibility/safety/index.html"
 	],
 	"find":
 	{
