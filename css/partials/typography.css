@@ -16,7 +16,7 @@
   font-style: "normal";
 }
 @font-face {
-  font-family: "fontawesome";
+  font-family: "FontAwesome";
   src: url("fonts/icons/fontawesome-webfont.eot");
   src: url("fonts/icons/fontawesome-webfont.eot?") format("eot"), url("fonts/icons/fontawesome-webfont.woff") format("woff"), url("fonts/icons/fontawesome-webfont.ttf") format("truetype");
   font-weight: normal;

@@ -101,6 +101,10 @@
 	},
 	"file_history":
 	[
+		"/Users/Q/Sites/qoppa/css/main.css",
+		"/Users/Q/Sites/qoppa/css/main.min.css",
+		"/Users/Q/Sites/qoppa/css/scss/partials/font-awesome.scss",
+		"/Users/Q/Sites/qoppa/css/scss/globals/_vars.scss",
 		"/Users/Q/Sites/qoppa/_includes/patterns/box/index.html",
 		"/Users/Q/Sites/qoppa/_includes/contact.html",
 		"/Users/Q/Sites/qoppa/_includes/patterns/breadcrumbs/index.html",
@@ -158,7 +162,6 @@
 		"/Users/Q/Sites/qoppa/thank-you/index.html",
 		"/Users/Q/Sites/qoppa/css/scss/partials/footer.scss",
 		"/Users/Q/Sites/qoppa/_data/nav.yml",
-		"/Users/Q/Sites/qoppa/css/scss/globals/_vars.scss",
 		"/Users/Q/Sites/qoppa/css/partials/colors.css",
 		"/Users/Q/Sites/qoppa/bower.json",
 		"/Users/Q/Sites/qoppa/CNAME",
@@ -225,10 +228,7 @@
 		"/Users/Q/Sites/terracare/public-services/public-landscape/index.html",
 		"/Users/Q/Sites/terracare/public-services/public-works/index.html",
 		"/Users/Q/Sites/terracare/public-services/snow-removal/index.html",
-		"/Users/Q/Sites/terracare/css/scss/partials/blog.scss",
-		"/Users/Q/Sites/terracare/public-services/traffic-control/index.html",
-		"/Users/Q/Sites/terracare/responsibility/community-investment/index.html",
-		"/Users/Q/Sites/terracare/responsibility/safety/index.html"
+		"/Users/Q/Sites/terracare/css/scss/partials/blog.scss"
 	],
 	"find":
 	{
@@ -252,6 +252,8 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"fontaw",
+			"fontawe",
 			"async",
 			"vertic",
 			"textare",
@@ -373,8 +375,6 @@
 			"facet",
 			"NW_",
 			"lone_tree",
-			"centennial",
-			"Centennial",
 			"centennial",
 			"Centennial",
 			"centennial",
