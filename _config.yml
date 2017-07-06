@@ -3,9 +3,10 @@ name: Qoppa
 version: 0.0.1
 author: Max Quattromani
 email: max@maxquattromani.com
-description: "A leading, Denver-based Web Design and Development Agency specializing in design, development, marketing, content creation, and graphic design."
+description: "A leading Web Design and Development Agency specializing in design, development, marketing, content creation, and graphic design."
 baseurl: ""
-url: "http://qoppa.co"
+url: https://qoppa.co
+enforce_ssl: www.qoppa.com
 author: "Max Quattromani"
 twitter_username: maxquattromani
 github_username:  quattromani
