@@ -16,7 +16,7 @@ footer: "This is our footer. Ain't it cool? Don't steal."
 # Build settings
 markdown: kramdown
 permalink: pretty
-highlighter: true
+highlighter: rouge
 
 exclude: ['node_modules', 'scss', 'DAM']
 

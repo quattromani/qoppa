@@ -11,11 +11,13 @@
 
             <div class="row">
               <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3081.5485321076553!2d-104.77764328463371!3d39.43433237949144!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x876c96c829ddd971%3A0x8fe6cdd7c38c332!2s4960+Streambed+Trail%2C+Parker%2C+CO+80134!5e0!3m2!1sen!2sus!4v1499469826945"
               width="100%"
               height="175"
               frameborder="0"
               style="border:0"
-              src="https://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=7637+Nuthatch+Circle,+Parker,+CO&amp;aq=0&amp;oq=7637+Nuthat&amp;sll=39.737567,-104.984718&amp;sspn=8.250833,16.907959&amp;ie=UTF8&amp;hq=&amp;hnear=7637+Nuthatch+Cir,+Parker,+Colorado+80134&amp;t=m&amp;z=14&amp;ll=39.440518,-104.74617&amp;output=embed"></iframe>
+              allowfullscreen>
+              </iframe>
             </div>
 
           </div>
@@ -35,7 +37,7 @@
   {% endif %}
   <div class="sub-footer">
     <div class="container">
-      <span class="small-body-text">&copy; <span id="year" class="getYear">year</span> {{ site.footer }}</span>
+      <span class="small-body-text">&copy; {{ site.time | date: '%Y' }} {{ site.footer }}</span>
       <span class="small-body-text right"><a href="/sitemap.xml"><i class="fa fa-sitemap"></i> Sitemap</a></span>
     </div>
   </div>
