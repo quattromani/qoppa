@@ -6,7 +6,7 @@ email: max@maxquattromani.com
 description: "A leading Web Design and Development Agency specializing in design, development, marketing, content creation, and graphic design."
 baseurl: ""
 url: https://qoppa.co
-enforce_ssl: www.qoppa.com
+enforce_ssl: qoppa.com
 author: "Max Quattromani"
 twitter_username: maxquattromani
 github_username:  quattromani
