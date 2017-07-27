@@ -183,10 +183,10 @@ button.btn-lg,
 button.btn-sm,
 .cta.btn-sm {
   min-width: 0;
-  padding-top: 0.16667em;
-  padding-right: 0.66667em;
-  padding-bottom: 0.16667em;
-  padding-left: 0.66667em;
+  padding-top: 0.1666666667em;
+  padding-right: 0.6666666667em;
+  padding-bottom: 0.1666666667em;
+  padding-left: 0.6666666667em;
 }
 @media (max-width: 40em) {
   .btn.mobile-full,

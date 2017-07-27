@@ -131,7 +131,7 @@ textarea {
   margin-left: 2%; }
   .marginless .third {
     float: left;
-    width: 33.33333%;
+    width: 33.3333333333%;
     margin-left: 0; }
   .third:first-child {
     margin-left: 0; }
@@ -203,7 +203,7 @@ textarea {
   margin-left: 2%; }
   .marginless .sixth {
     float: left;
-    width: 16.66667%;
+    width: 16.6666666667%;
     margin-left: 0; }
   .sixth:first-child {
     margin-left: 0; }
@@ -217,11 +217,11 @@ textarea {
 
 .seventh {
   float: left;
-  width: 12.57143%;
+  width: 12.5714285714%;
   margin-left: 2%; }
   .marginless .seventh {
     float: left;
-    width: 14.28571%;
+    width: 14.2857142857%;
     margin-left: 0; }
   .seventh:first-child {
     margin-left: 0; }
@@ -260,11 +260,11 @@ textarea {
 
 .ninth {
   float: left;
-  width: 9.33333%;
+  width: 9.3333333333%;
   margin-left: 2%; }
   .marginless .ninth {
     float: left;
-    width: 11.11111%;
+    width: 11.1111111111%;
     margin-left: 0; }
   .ninth:first-child {
     margin-left: 0; }
@@ -303,11 +303,11 @@ textarea {
 
 .eleventh {
   float: left;
-  width: 7.27273%;
+  width: 7.2727272727%;
   margin-left: 2%; }
   .marginless .eleventh {
     float: left;
-    width: 9.09091%;
+    width: 9.0909090909%;
     margin-left: 0; }
   .eleventh:first-child {
     margin-left: 0; }
@@ -332,7 +332,7 @@ textarea {
   margin-left: 2%; }
   .marginless .twelfth {
     float: left;
-    width: 8.33333%;
+    width: 8.3333333333%;
     margin-left: 0; }
   .twelfth:first-child {
     margin-left: 0; }
@@ -353,22 +353,22 @@ textarea {
 
 .golden-long {
   float: left;
-  width: 61.04079%;
+  width: 61.0407911001%;
   margin-left: 2%; }
   .marginless .golden-long {
     float: left;
-    width: 61.8047%;
+    width: 61.804697157%;
     margin-left: 0; }
   .golden-long:first-child {
     margin-left: 0; }
 
 .golden-short {
   float: left;
-  width: 36.95921%;
+  width: 36.9592088999%;
   margin-left: 2%; }
   .marginless .golden-short {
     float: left;
-    width: 38.1953%;
+    width: 38.195302843%;
     margin-left: 0; }
   .golden-short:first-child {
     margin-left: 0; }
@@ -427,7 +427,7 @@ textarea {
   margin-left: 2%; }
   .marginless .two-thirds {
     float: left;
-    width: 66.66667%;
+    width: 66.6666666667%;
     margin-left: 0; }
   .two-thirds:first-child {
     margin-left: 0; }
@@ -4030,10 +4030,10 @@ button,
   button.btn-sm,
   .cta.btn-sm {
     min-width: 0;
-    padding-top: 0.16667em;
-    padding-right: 0.66667em;
-    padding-bottom: 0.16667em;
-    padding-left: 0.66667em; }
+    padding-top: 0.1666666667em;
+    padding-right: 0.6666666667em;
+    padding-bottom: 0.1666666667em;
+    padding-left: 0.6666666667em; }
   @media (max-width: 40em) {
     .btn.mobile-full,
     .button.mobile-full,
@@ -4145,7 +4145,7 @@ button,
    ========================================================================== */
 label + .pill,
 .pill + label {
-  margin-left: 0.33333em; }
+  margin-left: 0.3333333333em; }
 
 .pill,
 .pill-white,
@@ -4373,9 +4373,7 @@ select {
   font-size: 1.6rem;
   vertical-align: baseline; }
 
-input[type]:not([type=range]),
-textarea,
-select {
+input[type]:not([type=range]), textarea, select {
   width: 100%;
   max-width: 100%;
   padding-top: 0.775em;
@@ -4397,32 +4395,20 @@ select {
   will-change: transition;
   -webkit-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out; }
-  .ie input[type]:not([type=range]), .ie
-  textarea, .ie
-  select {
+  .ie input[type]:not([type=range]),
+  .ie textarea,
+  .ie select {
     background: transparent;
     -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#33000000, endColorstr=#33000000)";
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#33000000,endColorstr=#33000000);
     zoom: 1; }
-  input[type]:not([type=range])[type='search'],
-  textarea[type='search'],
-  select[type='search'] {
+  input[type]:not([type=range])[type='search'], textarea[type='search'], select[type='search'] {
     -webkit-background-size: 1em;
     background-size: 1em;
     background-position: .5em; }
-    input[type]:not([type=range])[type='search']::-webkit-search-decoration, input[type]:not([type=range])[type='search']::-webkit-search-cancel-button, input[type]:not([type=range])[type='search']::-webkit-datetime-edit-fields-wrapper,
-    textarea[type='search']::-webkit-search-decoration,
-    textarea[type='search']::-webkit-search-cancel-button,
-    textarea[type='search']::-webkit-datetime-edit-fields-wrapper,
-    select[type='search']::-webkit-search-decoration,
-    select[type='search']::-webkit-search-cancel-button,
-    select[type='search']::-webkit-datetime-edit-fields-wrapper {
+    input[type]:not([type=range])[type='search']::-webkit-search-decoration, input[type]:not([type=range])[type='search']::-webkit-search-cancel-button, input[type]:not([type=range])[type='search']::-webkit-datetime-edit-fields-wrapper, textarea[type='search']::-webkit-search-decoration, textarea[type='search']::-webkit-search-cancel-button, textarea[type='search']::-webkit-datetime-edit-fields-wrapper, select[type='search']::-webkit-search-decoration, select[type='search']::-webkit-search-cancel-button, select[type='search']::-webkit-datetime-edit-fields-wrapper {
       -webkit-appearance: none; }
-  input[type]:not([type=range])[type="radio"], input[type]:not([type=range])[type="checkbox"],
-  textarea[type="radio"],
-  textarea[type="checkbox"],
-  select[type="radio"],
-  select[type="checkbox"] {
+  input[type]:not([type=range])[type="radio"], input[type]:not([type=range])[type="checkbox"], textarea[type="radio"], textarea[type="checkbox"], select[type="radio"], select[type="checkbox"] {
     float: left;
     margin-top: 0.25em;
     margin-right: 0.5em;

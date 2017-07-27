@@ -82,7 +82,7 @@
 }
 .marginless .third {
   float: left;
-  width: 33.33333%;
+  width: 33.3333333333%;
   margin-left: 0;
 }
 .third:first-child {
@@ -178,7 +178,7 @@
 }
 .marginless .sixth {
   float: left;
-  width: 16.66667%;
+  width: 16.6666666667%;
   margin-left: 0;
 }
 .sixth:first-child {
@@ -197,12 +197,12 @@
 
 .seventh {
   float: left;
-  width: 12.57143%;
+  width: 12.5714285714%;
   margin-left: 2%;
 }
 .marginless .seventh {
   float: left;
-  width: 14.28571%;
+  width: 14.2857142857%;
   margin-left: 0;
 }
 .seventh:first-child {
@@ -255,12 +255,12 @@
 
 .ninth {
   float: left;
-  width: 9.33333%;
+  width: 9.3333333333%;
   margin-left: 2%;
 }
 .marginless .ninth {
   float: left;
-  width: 11.11111%;
+  width: 11.1111111111%;
   margin-left: 0;
 }
 .ninth:first-child {
@@ -313,12 +313,12 @@
 
 .eleventh {
   float: left;
-  width: 7.27273%;
+  width: 7.2727272727%;
   margin-left: 2%;
 }
 .marginless .eleventh {
   float: left;
-  width: 9.09091%;
+  width: 9.0909090909%;
   margin-left: 0;
 }
 .eleventh:first-child {
@@ -352,7 +352,7 @@
 }
 .marginless .twelfth {
   float: left;
-  width: 8.33333%;
+  width: 8.3333333333%;
   margin-left: 0;
 }
 .twelfth:first-child {
@@ -381,12 +381,12 @@
 
 .golden-long {
   float: left;
-  width: 61.04079%;
+  width: 61.0407911001%;
   margin-left: 2%;
 }
 .marginless .golden-long {
   float: left;
-  width: 61.8047%;
+  width: 61.804697157%;
   margin-left: 0;
 }
 .golden-long:first-child {
@@ -395,12 +395,12 @@
 
 .golden-short {
   float: left;
-  width: 36.95921%;
+  width: 36.9592088999%;
   margin-left: 2%;
 }
 .marginless .golden-short {
   float: left;
-  width: 38.1953%;
+  width: 38.195302843%;
   margin-left: 0;
 }
 .golden-short:first-child {
@@ -477,7 +477,7 @@
 }
 .marginless .two-thirds {
   float: left;
-  width: 66.66667%;
+  width: 66.6666666667%;
   margin-left: 0;
 }
 .two-thirds:first-child {
